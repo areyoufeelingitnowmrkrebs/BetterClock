@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Name": "ego"
+            }
+        ],
+        "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Digital%20Clock%20widget",
+        "Category": "Date and Time",
+        "Description": "A digital clock that opens a web-based calendar when clicked.",
+        "Icon": "preferences-system-time",
+        "Id": "com.ego.plasma.betterclock",
+        "License": "GPL-3.0-or-later",
+        "Name": "Better Clock",
+        "Website": "https://kde.org/plasma-desktop"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time",
+        "org.kde.plasma.date"
+    ]
+}
